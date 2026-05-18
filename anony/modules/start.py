@@ -70,7 +70,7 @@ PHOTO_URL = "https://h.uguu.se/fofglpwY.jpg",
             "https://ik.imagekit.io/jbxs2z512/5823589-2920x1640-desktop-hd-boy-programmer-wallpaper-image.jpg_id=1726666227?updatedAt=1751107911063",
             "https://ik.imagekit.io/jbxs2z512/thumbbig-1345576.webp?updatedAt=1751108065802",
             "https://ik.imagekit.io/jbxs2z512/thumb-440-1340473.webp?updatedAt=1751108159970",
-            "https://ik.imagekit.io/jbxs2z512/wp3084738.jpg?updatedAt=1751108326075", b b.        
+            "https://ik.imagekit.io/jbxs2z512/wp3084738.jpg?updatedAt=1751108326075",        
             "https://ik.imagekit.io/jbxs2z512/wp12362449.png?updatedAt=1751108554882",
             "https://ik.imagekit.io/jbxs2z512/wp7627005.jpg?updatedAt=1751108634878",
             "https://ik.imagekit.io/jbxs2z512/thumbbig-1335194.webp?updatedAt=1751108710765",
@@ -118,8 +118,6 @@ PHOTO_URL = "https://h.uguu.se/fofglpwY.jpg",
             "https://ik.imagekit.io/jbxs2z512/3f36f010cb6acb9468951d561fc01464.jpg?updatedAt=1757318940586",
             "https://ik.imagekit.io/jbxs2z512/0248823b46df5e7f74b7101c305de13d.jpg?updatedAt=1757318960094",
             "https://ik.imagekit.io/jbxs2z512/62d47644f5f720b9108c0ff448dad10e.jpg?updatedAt=1757321226076"
-            [truncated]
-            [truncated]
 
 @app.on_message(filters.command(["start"]) & filters.private)
 async def f_start(_, m: types.Message):
