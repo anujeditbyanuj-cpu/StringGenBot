@@ -125,7 +125,7 @@ PICS = (
 @app.on_message(filters.command(["start"]) & filters.private)
 async def f_start(_, m: types.Message):
     await m.reply_photo(
-        photo=PICS,
+        photo=random.choice(PICS),
         caption=f"Hey {m.from_user.first_name},\n\nThis is {app.mention},\nAn open source session generator bot.",
         reply_markup=buttons.start_key(),
     )
