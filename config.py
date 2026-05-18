@@ -7,4 +7,4 @@ BOT_TOKEN = getenv("BOT_TOKEN", "8987382277:AAHmLBw1R5Ot6R8e5BchweMmM3k1FslhACU"
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 
 OWNER_ID = int(getenv("OWNER_ID",7892805795))
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/anujeditbyak")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TeraBox_Support_Anuj_Bot")
