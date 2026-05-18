@@ -1,3 +1,4 @@
+import random
 from pyrogram import filters, types
 from anony import app, buttons, db
 
@@ -117,6 +118,8 @@ PHOTO_URL = "https://h.uguu.se/fofglpwY.jpg",
             "https://ik.imagekit.io/jbxs2z512/3f36f010cb6acb9468951d561fc01464.jpg?updatedAt=1757318940586",
             "https://ik.imagekit.io/jbxs2z512/0248823b46df5e7f74b7101c305de13d.jpg?updatedAt=1757318960094",
             "https://ik.imagekit.io/jbxs2z512/62d47644f5f720b9108c0ff448dad10e.jpg?updatedAt=1757321226076"
+            [truncated]
+            [truncated]
 
 @app.on_message(filters.command(["start"]) & filters.private)
 async def f_start(_, m: types.Message):
